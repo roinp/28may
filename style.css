@@ -97,4 +97,10 @@
       font-size: calc(3.375rem * var(--smaller));
     }
   }
-  
+
+  @media all and (max-width: 768px) {
+    body {
+      background-size: cover;
+      background-position: center top;
+    }
+  }
